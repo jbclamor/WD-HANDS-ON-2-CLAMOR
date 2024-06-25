@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url(../img/huecomundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header.top-header {
     display: flex;
     flex-direction: row;
@@ -50,10 +56,6 @@ div.first-hero {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    background: url(../img/huecomundo.jpg);
-    background-position: 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
 
     & .content {
         display: flex;
@@ -62,7 +64,8 @@ div.first-hero {
         & .description {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            text-align: center;
+            position: relative;
             gap: 0.5rem;
             
             & > h3 {
@@ -73,11 +76,12 @@ div.first-hero {
             }
 
             & > p {
-                display: -webkit-box;
+                display: flex;
+                padding-left: 25rem;
                 align-items: center;
                 text-align: center;
-                -webkit-line-clamp: 3;
-                justify-content: inter-word;
+                width: 65%;
+                justify-content: center;
                 color: whitesmoke;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 text-decoration: none;
