@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%);
+    background: url(../img/hoshinabg.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -58,17 +58,15 @@ div.second-hero {
     text-align: center;
 
     & > div.first-content {
+        color: antiquewhite;
         display: flex;
-        flex-direction: column;
-
-        & > p.description1 {
-            padding-top: 2rem;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: antiquewhite;
-            width: 65%;
-            text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 2px solid rgba(245, 245, 245, 0.212);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 20%;
+        padding: 2rem;
         }
-    }
 
     & > img {
         padding-top: 5rem;
@@ -76,14 +74,13 @@ div.second-hero {
     }
 
     & > div.second-content {
+        color: antiquewhite;
         display: flex;
-        flex-direction: column;
-
-        & > p.description2 {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: antiquewhite;
-            width: 65%;
-            text-align: center;
-        }
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 2px solid rgba(245, 245, 245, 0.212);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 20%;
+        padding: 2rem;
     }
 }

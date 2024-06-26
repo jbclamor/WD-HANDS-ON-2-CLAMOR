@@ -50,3 +50,21 @@ header.top-header {
         }
     }
 }
+
+div.main-content {
+    display: flex;
+    flex-direction: row;
+
+    & > div.content {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 10rem;
+        gap: 3rem;
+
+        & > div.description {
+            color: aliceblue;
+            width: 50%;
+        }
+    }
+}
