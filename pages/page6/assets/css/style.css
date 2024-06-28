@@ -53,7 +53,7 @@ header.top-header {
 
 div.main-content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
