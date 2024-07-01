@@ -6,7 +6,6 @@
 <div align="center">
   <a href="https://github.com/jbclamor">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project --> 
   <h3 align="center">Heroes & Cards</h3>
@@ -20,7 +19,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  --> jbclamor
 <!-- TODO: Change the WD-Template-Project into the same name of your folder --> WD-HANDS-ON-2-CLAMOR
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=jbclamor/WD-HANDS-ON-2-CLAMOR)
 
 ---
 
@@ -102,8 +101,6 @@ WD-ProjectName
 |     |  |  └─ style.css
 |     |  └─ img
 |     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -114,4 +111,3 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
