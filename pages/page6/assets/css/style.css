@@ -56,4 +56,103 @@ div.main-content {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+    & > div.first-card {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30rem;
+        & > img {
+            height: 150px;
+        }
+
+        & > p.first-description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid rgba(245, 245, 245, 0.212);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 20%;
+            padding: 2rem;
+        }
+    }
+
+    & > div.second-card {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 25rem;
+        align-items: center;
+        & > img {
+            height: 150px;
+        }
+
+        & > p.second-description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid rgba(245, 245, 245, 0.212);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 20%;
+            padding: 2rem;
+        }
+    }
+
+    & > div.third-card {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30rem;
+        & > img {
+            height: 100px;
+        }
+
+        & > p.third-description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid rgba(245, 245, 245, 0.212);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 20%;
+            padding: 2rem;
+        }
+    }
+
+    & > div.fourth-card {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 25rem;
+        align-items: center;
+        & > img {
+            height: 100px;
+        }
+
+        & > p.fourth-description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid rgba(245, 245, 245, 0.212);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 20%;
+            padding: 2rem;
+        }
+    }
+
+    & > div.fifth-card {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30rem;
+        align-items: center;
+        & > img {
+            height: 100px;
+        }
+
+        & > p.fifth-description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: 2px solid rgba(245, 245, 245, 0.212);
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            width: 20%;
+            padding: 2rem;
+        }
+    }
 }
+
