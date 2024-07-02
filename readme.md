@@ -58,16 +58,12 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-
 The project is about creating various designs for different heroes and cards. The purpose of this project is to further enhance the skills of us web designers and showcase our creativity. Technologies used in this project are HTML and CSS. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
